@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Style+Script&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap CSS v5.3.8 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-light ">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logorestur.png" alt="logo">
+        </a>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " href="#" aria-current="page">Home
+                <span class="visually-hidden">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+
+          </ul>
+          <button class="navbar-btn">Reservation Button</button>
+
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <main>
+    <section id="banner">
+      <div class="container">
+        <h5>Delicious Kitchen</h5>
+        <!-- <h1>Become a part of our community</h1> -->
+         <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, eum!</h1>
+        <button>Order Now</button>
+        <button class="book-btn">Book Now</button>
+
+      </div>
+    </section>
+    <section id="relevant">
+      <div class="container">
+        <h3>EAT TOGETHER Time, dedication,
+          and darn good eats.</h3>
+        <p>If breakfast is the most important meal of the day, then brunch is the most important
+          meal of the week. We treat it with the pomp and ceremony it deserves, using farm-
+          fresh ingredients to craft food you’ll spend the next six days dreaming about.
+
+        </p>
+        <button>Read More</button>
+      </div>
+    </section>
+    <!-- Food Menu Section -->
+    <section class="food-menu-section py-5">
+      <div class="container">
+
+        <!-- Section Title -->
+        <div class="text-center mb-5">
+          <span class="text-warning fw-bold text-uppercase tracking-wider">Our Menu</span>
+          <h2 class="fw-bold display-6 mt-1">Our Customer Favorites</h2>
+          <div class="title-line mx-auto mt-2"></div>
+        </div>
+
+        <!-- 6 Cards Grid Container -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+          <!-- Card 1 -->
+          <div class="col">
+            <div class="card h-100 food-card shadow-sm border-0 transition-all">
+              <div class="position-relative overflow-hidden card-img-wrapper">
+                <img src="./images/burgur.jpg" class="card-img-top object-fit-cover" alt="Cheeseburger">
+                <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-3 fw-bold">$12.99</span>
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h5 class="card-title fw-bold mb-0">Classic Cheeseburger</h5>
+                  <span class="text-muted small"><i class="bi bi-star-fill text-warning me-1"></i>4.8</span>
+                </div>
+                <p class="card-text text-muted flex-grow-1">Juicy beef patty grilled to perfection, topped with cheddar
+                  cheese, fresh lettuce, and our secret sauce.</p>
+                <button class="btn btn-outline-dark btn-sm rounded-pill mt-3 w-100 py-2 fw-semibold">Add to
+                  Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col">
+            <div class="card h-100 food-card shadow-sm border-0 transition-all">
+              <div class="position-relative overflow-hidden card-img-wrapper">
+                <img src="./images/pizza.jpg" class="card-img-top object-fit-cover" alt="Margherita Pizza">
+                <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-3 fw-bold">$14.50</span>
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h5 class="card-title fw-bold mb-0">Margherita Pizza</h5>
+                  <span class="text-muted small"><i class="bi bi-star-fill text-warning me-1"></i>4.9</span>
+                </div>
+                <p class="card-text text-muted flex-grow-1">Authentic wood-fired Italian crust loaded with fresh
+                  mozzarella, rich tomato marinara, and organic basil leaves.</p>
+                <button class="btn btn-outline-dark btn-sm rounded-pill mt-3 w-100 py-2 fw-semibold">Add to
+                  Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col">
+            <div class="card h-100 food-card shadow-sm border-0 transition-all">
+              <div class="position-relative overflow-hidden card-img-wrapper">
+                <img src="./images/salmonsalad.jpg" class="card-img-top object-fit-cover" alt="Salmon Salad">
+                <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-3 fw-bold">$11.25</span>
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h5 class="card-title fw-bold mb-0">Fresh Salmon Salad</h5>
+                  <span class="text-muted small"><i class="bi bi-star-fill text-warning me-1"></i>4.6</span>
+                </div>
+                <p class="card-text text-muted flex-grow-1">Pan-seared Atlantic salmon resting on a bed of crisp greens,
+                  cherry tomatoes, and light lemon vinaigrette.</p>
+                <button class="btn btn-outline-dark btn-sm rounded-pill mt-3 w-100 py-2 fw-semibold">Add to
+                  Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col">
+            <div class="card h-100 food-card shadow-sm border-0 transition-all">
+              <div class="position-relative overflow-hidden card-img-wrapper">
+                <img src="./images/Spaghetti Bolognese.jpg" class="card-img-top object-fit-cover" alt="Spaghetti">
+                <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-3 fw-bold">$13.99</span>
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h5 class="card-title fw-bold mb-0">Spaghetti Bolognese</h5>
+                  <span class="text-muted small"><i class="bi bi-star-fill text-warning me-1"></i>4.7</span>
+                </div>
+                <p class="card-text text-muted flex-grow-1">Classic Italian pasta tossed in a slow-simmered, rich minced
+                  beef bolognese sauce and grated parmesan cheese.</p>
+                <button class="btn btn-outline-dark btn-sm rounded-pill mt-3 w-100 py-2 fw-semibold">Add to
+                  Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="col">
+            <div class="card h-100 food-card shadow-sm border-0 transition-all">
+              <div class="position-relative overflow-hidden card-img-wrapper">
+                <img src="./images/donut.jpg" class="card-img-top object-fit-cover" alt="Glazed Donuts">
+                <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-3 fw-bold">$6.50</span>
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h5 class="card-title fw-bold mb-0">Glazed Donut Trio</h5>
+                  <span class="text-muted small"><i class="bi bi-star-fill text-warning me-1"></i>4.5</span>
+                </div>
+                <p class="card-text text-muted flex-grow-1">Three fluffy, freshly fried dough rings covered in our
+                  signature sweet, melt-in-your-mouth sugar glaze.</p>
+                <button class="btn btn-outline-dark btn-sm rounded-pill mt-3 w-100 py-2 fw-semibold">Add to
+                  Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="col">
+            <div class="card h-100 food-card shadow-sm border-0 transition-all">
+              <div class="position-relative overflow-hidden card-img-wrapper">
+                <img src="./images/coffee.jpg" class="card-img-top object-fit-cover" alt="Iced Coffee">
+                <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-3 fw-bold">$4.99</span>
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h5 class="card-title fw-bold mb-0">Caramel Iced Latte</h5>
+                  <span class="text-muted small"><i class="bi bi-star-fill text-warning me-1"></i>4.9</span>
+                </div>
+                <p class="card-text text-muted flex-grow-1">Chilled espresso blended smoothly with premium creamy milk,
+                  vanilla syrup, and a rich, buttery caramel drizzle.</p>
+                <button class="btn btn-outline-dark btn-sm rounded-pill mt-3 w-100 py-2 fw-semibold">Add to
+                  Cart</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Food Reviews Section -->
+    <section class="py-5 bg-light">
+      <div class="container">
+
+        <!-- Section Heading -->
+        <div class="row mb-5 text-center">
+          <div class="col-12">
+            <h2 class="fw-bold text-dark">Trending Food Reviews</h2>
+            <p class="text-muted">Discover what foodies are saying about top dishes.</p>
+          </div>
+        </div>
+
+        <!-- Review Cards Grid (6 Cards) -->
+        <div class="row g-4">
+
+          <!-- Card 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm overflow-hidden">
+              <div class="position-relative">
+                <img src="./images/Neapolitan Pizza.jpg" class="card-img-top" alt="Neapolitan Pizza"
+                  style="height: 220px; object-fit: cover;">
+                <span
+                  class="position-absolute top-0 end-0 bg-warning text-dark fw-bold m-3 px-3 py-1 rounded-pill shadow-sm">★
+                  4.9</span>
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <span class="text-uppercase text-danger fw-semibold small mb-2">Italian</span>
+                <h5 class="card-title fw-bold text-dark mb-2">Neapolitan Pizza</h5>
+                <p class="card-text text-muted flex-grow-1">Perfect blistered crust with rich San Marzano tomato sauce
+                  and fresh buffalo mozzarella.</p>
+                <hr class="text-muted my-3 opacity-25">
+                <div class="d-flex align-items-center">
+                  <img src="./images2pfp/Elena Rostova.jpg" class="rounded-circle me-3" alt="Reviewer"
+                    style="width: 40px; height: 40px; object-fit: cover;">
+                  <div>
+                    <h6 class="mb-0 fw-semibold text-dark small">Elena Rostova</h6>
+                    <small class="text-muted">2 days ago</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm overflow-hidden">
+              <div class="position-relative">
+                <img src="./images/Double Smash Burger.jpg" class="card-img-top" alt="Smash Burger"
+                  style="height: 220px; object-fit: cover;">
+                <span
+                  class="position-absolute top-0 end-0 bg-warning text-dark fw-bold m-3 px-3 py-1 rounded-pill shadow-sm">★
+                  4.8</span>
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <span class="text-uppercase text-danger fw-semibold small mb-2">American</span>
+                <h5 class="card-title fw-bold text-dark mb-2">Double Smash Burger</h5>
+                <p class="card-text text-muted flex-grow-1">Crispy edges on the patties, melted cheddar, and a secret
+                  tangy sauce that ties it all together.</p>
+                <hr class="text-muted my-3 opacity-25">
+                <div class="d-flex align-items-center">
+                  <img src="./images2pfp/Marcus Vance.jpg" class="rounded-circle me-3" alt="Reviewer"
+                    style="width: 40px; height: 40px; object-fit: cover;">
+                  <div>
+                    <h6 class="mb-0 fw-semibold text-dark small">Marcus Vance</h6>
+                    <small class="text-muted">3 days ago</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm overflow-hidden">
+              <div class="position-relative">
+                <img src="./images/Tonkotsu Shoyu Ramen.jpg" class="card-img-top" alt="Shoyu Ramen"
+                  style="height: 220px; object-fit: cover;">
+                <span
+                  class="position-absolute top-0 end-0 bg-warning text-dark fw-bold m-3 px-3 py-1 rounded-pill shadow-sm">★
+                  4.7</span>
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <span class="text-uppercase text-danger fw-semibold small mb-2">Japanese</span>
+                <h5 class="card-title fw-bold text-dark mb-2">Tonkotsu Shoyu Ramen</h5>
+                <p class="card-text text-muted flex-grow-1">Deep, complex umami broth paired with perfectly tender
+                  chashu pork pork and chewy noodles.</p>
+                <hr class="text-muted my-3 opacity-25">
+                <div class="d-flex align-items-center">
+                  <img src="./images2pfp/Aiko Tanaka.jpg" class="rounded-circle me-3" alt="Reviewer"
+                    style="width: 40px; height: 40px; object-fit: cover;">
+                  <div>
+                    <h6 class="mb-0 fw-semibold text-dark small">Aiko Tanaka</h6>
+                    <small class="text-muted">1 week ago</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm overflow-hidden">
+              <div class="position-relative">
+                <img src="./images/Strawberry Shortcake.jpg" class="card-img-top" alt="Strawberry Cake"
+                  style="height: 220px; object-fit: cover;">
+                <span
+                  class="position-absolute top-0 end-0 bg-warning text-dark fw-bold m-3 px-3 py-1 rounded-pill shadow-sm">★
+                  4.6</span>
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <span class="text-uppercase text-danger fw-semibold small mb-2">Dessert</span>
+                <h5 class="card-title fw-bold text-dark mb-2">Strawberry Shortcake</h5>
+                <p class="card-text text-muted flex-grow-1">Light, airy sponge layers loaded with fresh local
+                  strawberries and organic whipped cream.</p>
+                <hr class="text-muted my-3 opacity-25">
+                <div class="d-flex align-items-center">
+                  <img src="./images2pfp/Chloe Dupont .jpg" class="rounded-circle me-3" alt="Reviewer"
+                    style="width: 40px; height: 40px; object-fit: cover;">
+                  <div>
+                    <h6 class="mb-0 fw-semibold text-dark small">Chloe Dupont</h6>
+                    <small class="text-muted">1 week ago</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm overflow-hidden">
+              <div class="position-relative">
+                <img src="./images/Spicy Salmon Poke Bowl.jpg" class="card-img-top" alt="Salmon Bowl"
+                  style="height: 220px; object-fit: cover;">
+                <span
+                  class="position-absolute top-0 end-0 bg-warning text-dark fw-bold m-3 px-3 py-1 rounded-pill shadow-sm">★
+                  4.8</span>
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <span class="text-uppercase text-danger fw-semibold small mb-2">Healthy</span>
+                <h5 class="card-title fw-bold text-dark mb-2">Spicy Salmon Poke Bowl</h5>
+                <p class="card-text text-muted flex-grow-1">Freshly cubed sashimi salmon tossed with edamame, avocado,
+                  and a fiery sriracha aioli drizzle.</p>
+                <hr class="text-muted my-3 opacity-25">
+                <div class="d-flex align-items-center">
+                  <img src="./images2pfp/Liam Chen.jpg" class="rounded-circle me-3" alt="Reviewer"
+                    style="width: 40px; height: 40px; object-fit: cover;">
+                  <div>
+                    <h6 class="mb-0 fw-semibold text-dark small">Liam Chen</h6>
+                    <small class="text-muted">2 weeks ago</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm overflow-hidden">
+              <div class="position-relative">
+                <img src="./images/Butter Croissant.jpg" class="card-img-top" alt="Croissant"
+                  style="height: 220px; object-fit: cover;">
+                <span
+                  class="position-absolute top-0 end-0 bg-warning text-dark fw-bold m-3 px-3 py-1 rounded-pill shadow-sm">★
+                  5.0</span>
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <span class="text-uppercase text-danger fw-semibold small mb-2">Bakery</span>
+                <h5 class="card-title fw-bold text-dark mb-2">Butter Croissant</h5>
+                <p class="card-text text-muted flex-grow-1">Flaky, golden-brown layers that melt in your mouth with an
+                  undeniable, rich buttery finish.</p>
+                <hr class="text-muted my-3 opacity-25">
+                <div class="d-flex align-items-center">
+                  <img src="./images2pfp/Oliver Kraf.jpg" class="rounded-circle me-3" alt="Reviewer"
+                    style="width: 40px; height: 40px; object-fit: cover;">
+                  <div>
+                    <h6 class="mb-0 fw-semibold text-dark small">Oliver Kraft</h6>
+                    <small class="text-muted">3 weeks ago</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us py-5">
+      <div class="container">
+        <!-- Section Title -->
+        <div class="text-center mb-5">
+          <span class="text-warning fw-bold text-uppercase tracking-wider">Our Strengths</span>
+          <h2 class="display-5 fw-bold mt-2 text-dark">Why Choose Us?</h2>
+          <p class="text-muted mx-auto" style="max-width: 600px;">We blend passion, fresh ingredients, and exceptional
+            service to bring you a dining experience that stands out from the rest.</p>
+        </div>
+
+        <!-- 3 Cards Layout -->
+        <div class="row g-4 justify-content-center">
+
+          <!-- Card 1: Fresh Ingredients -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm custom-food-card">
+              <div class="card-body p-4 text-center">
+                <div
+                  class="icon-box bg-success-light text-success rounded-circle mx-auto mb-4 d-flex align-items-center justify-content-center">
+                  <!-- SVG Icon: Leaf / Freshness -->
+                  <svg xmlns="http://w3.org" width="32" height="32" fill="currentColor" class="bi bi-leaf"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M11 0a3 3 0 1 1-6 0v1h1v1h1v1h1v1h1V1a3 3 0 0 1 1-1zM4 1.5a2.5 2.5 0 0 0 0 5V8h1v1h1v1h1v1h1V4a2.5 2.5 0 0 0-4-2.5z" />
+                    <path
+                      d="M14.064 14.282a.5.5 0 0 1-.708 0L9.172 10.1A4 4 0 1 1 14.83 4.444l-4.183 4.183a.5.5 0 0 1-.707 0L8.122 6.808a5 5 0 1 0-5.84 7.643L1.11 15.623a.5.5 0 1 1-.708-.708l1.171-1.171a5 5 0 1 0 7.643-5.84l1.821 1.821a.5.5 0 1 1-.707.707L8.52 8.613l4.183-4.183a3 3 0 0 1 4.243 4.243l-4.183 4.183z" />
+                  </svg>
+                </div>
+                <h4 class="card-title fw-bold mb-3">100% Fresh Ingredients</h4>
+                <p class="card-text text-muted">We source daily from organic local farms to ensure your meals are packed
+                  with genuine nutrients and vibrant natural flavors.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Master Chefs -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm custom-food-card active-card">
+              <div class="card-body p-4 text-center">
+                <div
+                  class="icon-box bg-warning-light text-warning rounded-circle mx-auto mb-4 d-flex align-items-center justify-content-center">
+                  <!-- SVG Icon: Chef Hat / Culinary -->
+                  <svg xmlns="http://w3.org" width="32" height="32" fill="currentColor" class="bi bi-award"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 16l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.31 1.854 1.337 1.32-.842 1.68-1.858.282L8 14.225l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32.31-1.854 1.858-.282L8 1.775l1.669.864 1.858.282z" />
+                    <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 5.982 11.488 4 11.794z" />
+                  </svg>
+                </div>
+                <h4 class="card-title fw-bold mb-3">Experienced Culinary Chefs</h4>
+                <p class="card-text text-muted">Our world-class culinary experts curate highly unique recipes, blending
+                  tradition with modern cooking styles.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Lightning Fast Delivery -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm custom-food-card">
+              <div class="card-body p-4 text-center">
+                <div
+                  class="icon-box bg-danger-light text-danger rounded-circle mx-auto mb-4 d-flex align-items-center justify-content-center">
+                  <!-- SVG Icon: Fast Shipping / Truck -->
+                  <svg xmlns="http://w3.org" width="32" height="32" fill="currentColor" class="bi bi-lightning-charge"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09zM4.157 8.5H7a.5.5 0 0 1 .478.647L6.11 13.59l5.733-6.09H9a.5.5 0 0 1-.478-.647L9.89 2.41 4.157 8.5z" />
+                  </svg>
+                </div>
+                <h4 class="card-title fw-bold mb-3">Super Fast Delivery</h4>
+                <p class="card-text text-muted">We preserve optimum food temperatures using specialized hot-case bags so
+                  it reaches your door fresh, steaming, and on-time.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- Food Website Footer Section -->
+  <footer class="bg-black text-white pt-5 pb-4">
+    <div class="container text-center text-md-start">
+      <div class="row text-center text-md-start">
+
+        <!-- Brand & About -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning" style="color: #FFD700 !important;">Golden Bites
+          </h5>
+          <p class="text-white-50">Crafting premium culinary experiences with fresh, organic ingredients daily.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning" style="color: #FFD700 !important;">Our Menu</h5>
+          <p><a href="#" class="text-white text-decoration-none border-bottom border-transparent hover-gold">Gourmet
+              Burgers</a></p>
+          <p><a href="#" class="text-white text-decoration-none border-bottom border-transparent hover-gold">Artisan
+              Pizzas</a></p>
+          <p><a href="#" class="text-white text-decoration-none border-bottom border-transparent hover-gold">Fine
+              Desserts</a></p>
+        </div>
+
+        <!-- Opening Hours -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning" style="color: #FFD700 !important;">Hours</h5>
+          <p class="text-white-50 mb-1">Mon - Fri: 11 AM - 11 PM</p>
+          <p class="text-white-50">Sat - Sun: 10 AM - Midnight</p>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning" style="color: #FFD700 !important;">Contact</h5>
+          <p class="text-white-50"><i class="fas fa-home me-2"></i> 123 Luxury Dine St, NY</p>
+          <p class="text-white-50"><i class="fas fa-envelope me-2"></i> taste@goldenbites.com</p>
+          <p class="text-white-50"><i class="fas fa-phone me-2"></i> +1 234 567 890</p>
+        </div>
+
+      </div>
+
+      <hr class="mb-4" style="background-color: #FFD700; height: 2px; opacity: 0.5;">
+
+      <!-- Copyright & Socials -->
+      <div class="row align-items-center">
+        <div class="col-md-7 col-lg-8">
+          <p class="text-white-50">Copyright © 2026 All rights reserved by:
+            <a href="#" class="text-decoration-none"><strong class="text-warning"
+                style="color: #FFD700 !important;">Golden Bites</strong></a>
+          </p>
+        </div>
+        <div class="col-md-5 col-lg-4 text-center text-md-end">
+          <a href="#" class="btn text-white btn-sm fs-4 hover-gold"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="btn text-white btn-sm fs-4 hover-gold"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="btn text-white btn-sm fs-4 hover-gold"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

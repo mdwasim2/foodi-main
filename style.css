@@ -1,0 +1,276 @@
+.container{
+    max-width: 1380px;
+}
+
+body{
+     font-family: "Roboto Condensed", sans-serif;
+}
+.title {
+    text-align: center;
+    
+}
+.title h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: #161722;
+    text-transform: uppercase;
+    
+}
+.title h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #161722;
+    text-transform: uppercase;
+    line-height: 64px;
+    color: #161722;
+    letter-spacing: -1%;
+    margin-top: 16px;
+}
+/*===== Nav bar start ======*/
+header .navbar{
+    background-color: #0D0D0D;
+     
+}
+header .navlink{
+    color: aliceblue;
+
+} 
+header .navbar .nav-link{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+header .navbar .navbar-nav{
+    gap: 48px;
+}
+header .navbar .navbar-brand{
+    margin-right: 400px;
+}
+header .navbar .navbar-btn{
+   border: none;
+   background: linear-gradient(90deg, #a07c3a 0%, #ffe89d 50%, #a07c3a 100%);
+   border-radius: 12px;
+   font-size: 16px;
+   font-weight: 400;
+   color: #1C1D28;
+   line-height: 16px;
+   padding: 20px 48px;
+
+}
+
+/*===== Nav bar end ======*/
+/*===== banner start ======*/
+#banner {
+    background-image: url("./images/herobanner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 158px 0;
+    color: #FFFFFF;
+    text-align: center;
+   
+}
+#banner  h5{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-size: 700;
+    text-transform: uppercase;
+    font-family: "Black Ops One", system-ui;
+
+}
+#banner  h1{
+    color: #FFFFFF;
+    font-size: 64px;
+    font-size: 700;
+    text-transform: uppercase;
+    letter-spacing: -1%;
+    max-width: 700px;
+    margin-left: 347px;
+    margin-top: 16px;
+    line-height: 82px;
+    
+
+}
+#banner  button{
+    border: none;
+  background: linear-gradient(90deg, #a07c3a 0%, #ffe89d 50%, #a07c3a 100%);
+   border-radius: 12px;
+   font-size: 16px;
+   font-weight: 600;
+   color: #1C1D28;
+   line-height: 16px;
+   padding: 20px 48px;
+   margin-top: 32px;
+}
+#banner  button:hover{
+background-color: aliceblue;
+color: #0D0D0D;
+}
+
+#banner .book-btn{
+     border: white solid;
+  background: none;
+   border-radius: 12px;
+   font-size: 16px;
+   font-weight: 600;
+   color: #b9babd;
+   line-height: 16px;
+   padding: 20px 48px;
+   margin-top: 32px;
+}
+#banner  .book-btn:hover{
+background-color: aliceblue;
+color: #0D0D0D;
+}
+/*===== banner end ======*/
+
+/*======== relevant ========*/
+#relevant{
+    
+    margin-top: 130px;
+    background-image: url("./images/resturant.png");
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 158px 0;
+    color: #FFFFFF;
+    
+}
+#relevant  h3{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+    max-width: 540px;
+ }
+ #relevant  p{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    
+    max-width: 540px;
+ }
+ #relevant  button{
+     border: none;
+   background: #383737;
+   border-radius: 44px;
+   font-size: 16px;
+   font-weight: 400;
+   color: #E9E9E9;
+   line-height: 16px;
+   padding: 20px 48px;
+   text-decoration: underline;
+
+ }
+
+/*======== relevant end ========*/
+/* Custom UI enhancements for the Food Menu Section */
+.food-menu-section {
+  background-color: #fafafa;
+}
+
+.title-line {
+  width: 60px;
+  height: 3px;
+  background-color: #ffc107; /* Bootstrap Warning Yellow */
+  border-radius: 2px;
+}
+
+.card-img-wrapper {
+  height: 220px;
+}
+
+.card-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+/* Elegant Zoom-In Effect on Image Hover */
+.food-card:hover .card-img-wrapper img {
+  transform: scale(1.08);
+}
+
+/* Smooth Lift Up Hover Effect for the entire Card */
+.food-card.transition-all {
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s ease;
+}
+
+.food-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08) !important;
+}
+
+/* Interactive Add to Cart button styles */
+.food-card .btn-outline-dark {
+  transition: all 0.2s ease-in-out;
+}
+
+.food-card .btn-outline-dark:hover {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #212529;
+}
+/* Optional Custom Adjustments (Add to your stylesheet if needed) */
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Subtle lift animation on hover */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08) !important;
+}
+/* Food Layout Card Custom Adjustments */
+.why-choose-us {
+    background-color: #fbfbf8; /* Warm light food website aesthetic tint */
+}
+
+.custom-food-card {
+    transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.3s ease;
+    border-radius: 16px !important;
+}
+
+/* Hover Zoom Effect */
+.custom-food-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Subtle Highlights on the Middle Card */
+.active-card {
+    border: 1px solid rgba(255, 193, 7, 0.2) !important;
+    box-shadow: 0 10px 20px rgba(255, 193, 7, 0.05) !important;
+}
+
+/* Custom Soft Color Background Tints for SVGs */
+.icon-box {
+    width: 70px;
+    height: 70px;
+}
+
+.bg-success-light {
+    background-color: rgba(40, 167, 69, 0.1);
+}
+
+.bg-warning-light {
+    background-color: rgba(255, 193, 7, 0.1);
+}
+
+.bg-danger-light {
+    background-color: rgba(220, 53, 69, 0.1);
+}
+
+.tracking-wider {
+    letter-spacing: 1.5px;
+}
+<!-- Optional CSS for smooth gold hover effects -->
+<style>
+  .hover-gold:hover {
+    color: #FFD700 ;
+    transition: color 0.3s ease;
+  }
+</style>
